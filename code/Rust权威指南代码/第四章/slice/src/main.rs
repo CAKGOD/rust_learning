@@ -4,9 +4,9 @@ fn main() {
     // 编写一个函数，该函数接收一个字符串，并返回在该字符串中找到的第一个单词。
     // 如果函数在该字符串中并未找到空格，则整个字符串就是一个单词，所以应该返回整个字符串。
     let mut s = String::from("hello world");
-    println!(s);
+    println!("{}", s);
     let word = first_word(&s); // word 的值为 5
-    println!(s);
+    println!("{}", s);
     s.clear(); // 这清空了字符串，使其等于 ""
 
     // // word 在此处的值仍然是 5，
