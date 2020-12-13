@@ -1,0 +1,16 @@
+fn main() {
+    //println!("Hello, world!");
+
+    let s = String::from("Hello World!");
+
+    let word = tempF(&s);
+
+    s.clear();
+
+    println!("{}", word);
+}
+
+fn tempF(a : &String) -> &str {
+
+    return &a[..];
+}
